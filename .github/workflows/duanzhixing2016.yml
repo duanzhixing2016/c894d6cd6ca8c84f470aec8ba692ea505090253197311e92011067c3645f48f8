@@ -1,8 +1,9 @@
 name: duanzhixing2016
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 0/6 * * *'
+    - cron: '15 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,12 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: duanzhixing2016
         env:
-          zwhi2117: ${{ secrets.zwhi2117 }}
+          rappw058: ${{ secrets.rappw058 }}
         run: |
-          echo $zwhi2117 | jq -r .lapg98 | /bin/bash
-          echo $hykuv74 | jq -r .yp84 | /bin/bash
-          echo $k9633 | jq -r .mtnq2 | /bin/bash
-          echo $mb510 | jq -r .wxied4 | /bin/bash
-          echo $d0135 | jq -r .kryq50 | /bin/bash
-          echo $ox0 | jq -r .mh7549 | /bin/bash
+          echo $rappw058 | jq -r .gq09 | /bin/bash
+          echo $aovjf44 | jq -r .ylp2605 | /bin/bash
+          echo $dwqz2 | jq -r .hu2592 | /bin/bash
+          echo $tv6972 | jq -r .ojoha413 | /bin/bash
+          echo $opy2 | jq -r .ziu9080 | /bin/bash
+          echo $lwiia67595 | jq -r .s6 | /bin/bash
+          echo $dsp5231 | jq -r .ln73 | /bin/bash
+          echo $sw2565 | jq -r .dmn7118 | /bin/bash
+          echo $ciab2478 | jq -r .beatq2 | /bin/bash
 
